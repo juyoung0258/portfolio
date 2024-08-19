@@ -1,0 +1,222 @@
+
+
+.hiki {
+  position: absolute;
+  top: 9%;
+  left: 19%;
+  width: 700px;
+  height: 360px;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50px;
+  transition: filter 0.3s ease; /* 필터 효과에 부드러운 전환 추가 */
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+  background-color: #552acd;
+}
+
+.hiki > img {
+  position: relative;
+  left: -19%;
+  top: 10%;
+transform: scale(0.25);
+width: 1000px;
+height: 1300px;
+transform-origin: top; /* 기준점을 왼쪽 위로 설정 */
+  transition: filter 0.3s ease; /* 필터 효과에 부드러운 전환 추가 */
+  filter: saturate(1.23);
+}
+
+.box3 {
+  position: absolute;
+  top: 9%;
+  left: 19%;
+  width: 700px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 50px;
+  transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+  background-color: #45259b;
+}
+
+.box3 img {
+  position: relative;
+  left: -19%;
+  top: 10%;
+transform: scale(0.25);
+width: 1000px;
+height: 1300px;
+transform-origin: top; /* 기준점을 왼쪽 위로 설정 */
+transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+filter: saturate(1.23);
+}
+
+.box3:hover {
+opacity: 0;
+}
+
+.txt-3 .title {
+  font-size: 3em; /* 폰트 크기 조정 */
+  margin-left: 14.3%;
+  margin-top: 3%;
+  top: 60px;
+  font-family: 'SUITE-Regular';
+}
+
+.txt-3 .en {
+  font-size: 1.8em; /* 폰트 크기 조정 */
+  margin-left: 14.5%;
+  margin-top: 5.2%;
+  letter-spacing: 1.5px;
+  padding: 0;
+  top: 65px;
+  font-family: 'SUITE-Regular';
+}
+
+.txt-3 .type {
+  font-family: 'SUITE-Regular';
+  margin-left: 14.3%;
+  font-size: 1.6em; /* 폰트 크기 조정 */
+  top: 25.7%;
+  font-weight: 400;
+}
+
+.txt-3 .tool {
+  font-size: 1.3em; /* 폰트 크기 조정 */
+  top: 29%;
+  margin-left: 18.9%;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: 'SUITE-Regular';
+}
+
+.txt-3 .redesign {
+  position: absolute;
+  font-size: 1.8em; /* 폰트 크기 조정 */
+  font-weight: bold;
+padding: 20px 82px;
+top: 38%;
+left: 60.5%;
+color: rgb(93, 133, 241);
+font-family: 'SUITE-Regular';
+background-color: #fff;
+border-radius: 10px;
+border: 3px solid #fff;
+text-align: center;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease-in; /* 부드럽게 변화하는 효과 */
+}
+
+.txt-3 .redesign:hover {
+color: #fff;
+font-family: 'SUITE-Regular';
+background-color: rgb(93, 133, 241);
+border: 3px solid #fff;
+}
+
+.ezroad {
+  position: absolute;
+  top: 52%;
+  left: 19%;
+  width: 700px;
+  height: 360px;
+  overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+  display: inline-block;
+  border-radius: 50px;
+  transition: filter 0.3s ease; /* 필터 효과에 부드러운 전환 추가 */
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+  background-color: #FF8B20;
+}
+
+.ezroad img {
+  position: relative;
+top: 30%;
+left: 17%;
+position: absolute;
+transform-origin: left top; /* 기준점을 왼쪽 위로 설정 */
+display: block; /* 이미지 주변의 여백 제거 */
+transition: filter 0.3s ease; /* 필터 효과에 부드러운 전환 추가 */
+filter: brightness(0.8);
+}
+
+.box4 {
+  position: absolute;
+  top: 52%;
+  left: 19%;
+  width: 700px;
+  height: 360px;
+  overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+  border-radius: 50px;
+  transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+  background-color: #ff7b00;
+}
+
+.box4 img {
+  position: relative;
+top: 30%;
+left: 17%;
+position: absolute;
+transform-origin: left top; /* 기준점을 왼쪽 위로 설정 */
+display: block; /* 이미지 주변의 여백 제거 */
+transition: filter 0.3s ease; /* 필터 효과에 부드러운 전환 추가 */
+filter: brightness(0.8);
+}
+
+.box4:hover {
+opacity: 0;
+}
+
+.txt-4 .title {
+  font-size: 3em; /* 폰트 크기 조정 */
+  margin-left: 14.3%;
+  margin-top: 2.5%;
+  font-family: 'SUITE-Regular';
+}
+
+.txt-4 .en {
+  font-size: 1.8em; /* 폰트 크기 조정 */
+  margin-left: 14.7%;
+  margin-top: 26.6%;
+  top: 65px;
+  font-family: 'SUITE-Regular';
+}
+
+.txt-4 .type {
+  font-family: 'SUITE-Regular';
+  margin-left: 14.3%;
+  font-size: 1.6em; /* 폰트 크기 조정 */
+  top: 70%;
+  font-weight: 400;
+}
+
+.txt-4 .tool {
+  font-size: 1.3em; /* 폰트 크기 조정 */
+  top: 73%;
+  margin-left: 18.9%;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  font-family: 'SUITE-Regular';
+}
+
+.txt-4 .redesign {
+  position: absolute;
+  font-size: 1.8em; /* 폰트 크기 조정 */
+  font-weight: bold;
+padding: 20px 82px;
+top: 81%;
+left: 60.5%;
+color: rgb(93, 133, 241);
+font-family: 'SUITE-Regular';
+background-color: #fff;
+border-radius: 10px;
+border: 3px solid #fff;
+text-align: center;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease-in; /* 부드럽게 변화하는 효과 */
+}
+
+  .txt-4 .redesign:hover {
+    color: #fff;
+    font-family: 'SUITE-Regular';
+    background-color: rgb(93, 133, 241);
+    border: 3px solid #fff;
+  }

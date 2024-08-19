@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PeoplefirstNeatLoudTTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/PeoplefirstNeatLoudTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pr {
+    font-family: 'PeoplefirstNeatLoudTTF';
+}
+
+.my_pic {
+    width: 380px;
+    height: auto;
+    background-color: #ccc;
+    margin-top: 7%;
+    margin-left: 21%;
+    border-radius: 50px;
+    transform: scale(1.1);
+    filter: saturate(1.1);
+}
+
+.me {
+    position: absolute;
+    left: 320px;
+    bottom: 152px;
+    width: 400px;
+    height: auto;
+    background-color: #ccc;
+    border-radius: 50px;
+    transform: scale(1.1);
+    filter: saturate(0.1);
+    transition: all 0.3s ease-in; /* 부드럽게 변화하는 효과 */
+}
+
+  .me:hover {
+  opacity: 0;
+  }
+
+  /* 위에거 안함 */
+
+.pr > figcaption {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    color: #fff;
+    font-size: 2.4em; /* 폰트 크기 조정 */
+    text-align: left;
+    line-height: 57px;
+    font-family: 'PeoplefirstNeatLoudTTF';
+}
+
+.file {
+    font-size: 2.1rem;
+    position: absolute;
+    bottom: 13%;
+    left: 45%;
+    width: 270px;
+    height: 72px;
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease-in; /* 부드럽게 변화하는 효과 */
+}
+
+.file:hover {
+    background-color:rgb(93, 133, 241);
+}
+
+.doc {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+}
+
+.resume {
+    position: absolute;
+    left: 80px;
+    bottom: 18px;
+}
+
+.file > a {
+    color: rgba(93, 133, 241, 0.9);
+    font-family: 'PeoplefirstNeatLoudTTF';
+    top: 19px;
+    right: 2px;
+    transition: all 0.1s ease; /* 부드럽게 변화하는 효과 */
+}
+
+.file:hover {
+    background-color: rgb(93, 133, 241);
+    outline: 3px solid #fff;
+}
+
+.file:hover > a {
+    color: #fff; /* 호버 시 링크의 색상 변경 */
+}
+
+.insta {
+    position: absolute;
+    bottom: 12.2%;
+    right: 34.5%;
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    margin: 0;
+    background-color: none;
+}

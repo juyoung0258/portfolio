@@ -1,0 +1,237 @@
+.cafe24 {
+  position: absolute;
+  top: 15%;
+  left: 19%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+  border-radius: 50px;
+  transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+  background-color: #fff;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: 'Chosunilbo_myungjo';
+}
+  
+  .cafe24 img {
+    transform: scale(1); /* 기본 크기 설정 */
+    width: auto;
+    height: 100%; /* 부모 요소에 맞추어 이미지 크기 설정 */
+    position: absolute;
+    left: 2%;
+    border-radius: 50px;
+    filter: saturate(1.2); /* 흑백 처리 */
+  }
+
+  
+  .cafe24:hover .overlay {
+    opacity: 1; /* 마우스를 올렸을 때 보이도록 설정 */
+  }
+
+  .coffee {
+    font-family: 'SUITE-Regular';
+    position: absolute;
+    top: 15%;
+    left: 41%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+    border-radius: 50px;
+    transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+    background-color: #fff;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Chosunilbo_myungjo';
+    filter: saturate(1.2);
+  }
+
+
+    .coffee img {
+      transform: scale(0.17);
+      transform-origin: left top; /* 기준점을 왼쪽 위로 설정 */
+    }
+
+    .coffee:hover {
+      cursor: pointer;
+    }
+
+    .coffee:hover .overlay {
+      opacity: 1; /* 마우스를 올렸을 때 보이도록 설정 */
+    }
+    
+    .daegu-cafe {
+      position: absolute;
+      top: 15%;
+      left: 63%;
+      width: 300px;
+      height: 300px;
+      overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+      border-radius: 50px;
+      transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+      background-color: #fff;
+      box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+      letter-spacing: 3px;
+      font-weight: bold;
+      font-family: 'Chosunilbo_myungjo';
+      
+    }
+    
+      .daegu-cafe img {
+          transform: scale(0.32);
+          transform-origin: left top; /* 기준점을 왼쪽 위로 설정 */
+          position: absolute;
+          left: -7%;
+          top: -3%;
+          filter: saturate(1.2);
+        }
+        
+        .daegu-cafe:hover .overlay {
+          opacity: 1; /* 마우스를 올렸을 때 보이도록 설정 */
+        }
+    
+        .daegu-cafe:hover {
+          cursor: pointer;
+        }
+
+        .espoir {
+          position: absolute;
+          top: 55%;
+          left: 19%;
+          width: 300px;
+          height: 300px;
+          overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+          border-radius: 50px;
+          transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+          background-color: #fff;
+          box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+          letter-spacing: 3px;
+  font-weight: bold;
+  font-family: 'Chosunilbo_myungjo';  
+        }
+        
+          .espoir img {
+              transform: scale(0.13);
+              transform-origin: left top; /* 기준점을 왼쪽 위로 설정 */
+              position: absolute;
+              top: -27%;
+              filter: saturate(1.2);
+              box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+            }
+        
+            .espoir:hover {
+              cursor: pointer;
+            }
+
+            .espoir:hover .overlay {
+              opacity: 1; /* 마우스를 올렸을 때 보이도록 설정 */
+            }
+
+            .be-f {
+              position: absolute;
+              top: 55%;
+              left: 41%;
+              width: 300px;
+              height: 300px;
+              overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+              border-radius: 50px;
+              transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+              background-color: #fff;
+              box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+              letter-spacing: 3px;
+  font-weight: bold;
+  font-family: 'Chosunilbo_myungjo';  
+            }
+            
+              .be-f img {
+                  transform: scale(0.35);
+                  transform-origin: right top; /* 기준점을 왼쪽 위로 설정 */
+                  position: absolute;
+                  top: -58%;
+                  right: -44%;
+                  filter: saturate(1.2);
+                }
+            
+                .be-f:hover {
+                  cursor: pointer;
+                }
+
+                .be-f:hover .overlay {
+                  opacity: 1; /* 마우스를 올렸을 때 보이도록 설정 */
+                }
+
+                .ez {
+                  position: absolute;
+                  top: 55%;
+                  left: 63%;
+                  width: 300px;
+                  height: 300px;
+                  overflow: hidden; /* 이미지가 부모 영역을 넘지 않도록 설정 */
+                  border-radius: 50px;
+                  transition: opacity 0.5s ease; /* opacity 변화에 부드러운 전환 추가 */
+                  background-color: #fff;
+                  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+                  letter-spacing: 3px;
+                  font-weight: bold;
+                  font-family: 'Chosunilbo_myungjo';
+                }
+                
+                  .ez img {
+                      transform: scale(0.15);
+                      transform-origin: right top; /* 기준점을 왼쪽 위로 설정 */
+                      position: absolute;
+                      top: -17%;
+                      right: 0%;
+                      filter: saturate(1.2);
+                    }
+                
+                    .ez:hover {
+                      cursor: pointer;
+                    }
+
+                    .ez:hover .overlay {
+                      opacity: 1; /* 마우스를 올렸을 때 보이도록 설정 */
+                    }
+                    
+/* 마우스 호버 */
+
+.fullscreen-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.75);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.fullscreen-image img {
+  max-width: 90%;
+  max-height: 90%;
+  /* border: 2px solid #fff; */
+}
+
+                    .overlay {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                      background: rgba(0, 0, 0, 0.5); /* 반투명 검정 배경 */
+                      color: white;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      opacity: 0; /* 기본적으로 보이지 않음 */
+                      transition: opacity 0.3s ease, background 0.3s ease; /* 부드러운 전환 효과 */
+                    }
+                    
+                    .overlay-text {
+                      font-size: 24px;
+                      text-align: center;
+                    }
+    
